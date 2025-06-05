@@ -16,9 +16,9 @@ The dataset is a single table (sales) in sales_data.db, created programmatically
 
 Columns:
               
-              product (TEXT): Product name (e.g., Laptop, Phone, Tablet).
-              quantity (INTEGER): Units sold.
-              price (REAL): Price per unit (e.g., $1000.00).
+            product (TEXT): Product name (e.g., Laptop, Phone, Tablet).
+            quantity (INTEGER): Units sold.
+            price (REAL): Price per unit (e.g., $1000.00).
 
 Sample Data: 6 rows (3 products: Laptop, Phone, Tablet) with varied quantities and prices.
 
@@ -29,8 +29,7 @@ Creation: The Python script generates sales_data.db and populates the sales tabl
 * Execute SQL query to compute total quantity and revenue per product.
 * Print results as a table (e.g., Laptop: 3 units, $2500).
 * Generate a bar chart (sales_chart.png) showing revenue per product.
-  
-  Revenue is calculated as quantity * price per row, summed by product.
+* Revenue is calculated as quantity * price per row, summed by product.
 
   No external dataset is required; the script includes sample data.
 
