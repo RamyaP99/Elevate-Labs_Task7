@@ -14,9 +14,9 @@ This project extracts a basic sales summary from a small SQLite database (sales_
 The dataset is a single table (sales) in sales_data.db, created programmatically:
 
 Columns:
-            product (TEXT): Product name (e.g., Laptop, Phone, Tablet).
-            quantity (INTEGER): Units sold.
-            price (REAL): Price per unit (e.g., $1000.00).
+              product (TEXT): Product name (e.g., Laptop, Phone, Tablet).
+              quantity (INTEGER): Units sold.
+              price (REAL): Price per unit (e.g., $1000.00).
 
 Sample Data: 6 rows (3 products: Laptop, Phone, Tablet) with varied quantities and prices.
 
@@ -39,7 +39,5 @@ Creation: The Python script generates sales_data.db and populates the sales tabl
 **Chart:** Bar chart with products on x-axis, revenue on y-axis (saved as sales_chart.png).
 
 **Sample Insights**
-
-Laptops generate high revenue due to high prices, despite lower quantities.
-
-Phones have low revenue due to low prices, despite high quantities.
+* Laptops generate high revenue due to high prices, despite lower quantities.
+* Phones have low revenue due to low prices, despite high quantities.
