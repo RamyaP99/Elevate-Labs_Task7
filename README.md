@@ -11,9 +11,11 @@ This project extracts a basic sales summary from a small SQLite database (sales_
 * Insights: Identifies high-revenue products (e.g., Laptops) for business focus.
 
 **Dataset**
+
 The dataset is a single table (sales) in sales_data.db, created programmatically:
 
 Columns:
+              
               product (TEXT): Product name (e.g., Laptop, Phone, Tablet).
               quantity (INTEGER): Units sold.
               price (REAL): Price per unit (e.g., $1000.00).
